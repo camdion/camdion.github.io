@@ -1,0 +1,42 @@
+.logo {
+    height: 4rem;
+    width: 4rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: left;
+}
+
+.navOptions {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navOptions a,
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navOptions a:hover {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+.navOptions li {
+    padding: 0 1rem;
+}
+
+main {
+    display: grid;
+
+}
