@@ -7,7 +7,7 @@ body {
 header {
     background-color: #2D401B;
     color: #D9D5C1;
-    padding: 20px;
+    padding: 1.25rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,7 +18,7 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Adjust size as needed */
+    width: 6.25rem; /* Adjust size as needed */
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 nav ul li a {
@@ -44,7 +44,7 @@ nav ul li a:hover {
 }
 
 main {
-    margin-top: 100px; /* Ensure content is below the fixed header */
+    margin-top: 4.375rem; /* Ensure content is below the fixed header */
 }
 
 .background-image {
@@ -66,17 +66,18 @@ main {
 
 .intro-text h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .intro-text p {
     font-size: 1.5rem;
 }
+
 footer {
     background-color: #403B33;
     color: #D9D5C1;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
